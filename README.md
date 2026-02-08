@@ -38,7 +38,7 @@ The project follows a strict step-by-step mathematical derivation:
 * **PCA Space:** The projected data formed distinct diagonal striations. This visualization confirms that PCA successfully captured the variance introduced by the categorical variables (like Job Type and Education).
 
 ### 2. Explained Variance
-* **Dynamic Selection:** The algorithm dynamically calculated that **[Insert Your Number Here, e.g., 20]** components are required to explain **90%** of the dataset's variance.
+* **Dynamic Selection:** The algorithm dynamically calculated that **18** components are required to explain **90%** of the dataset's variance.
 * **Class Overlap:** The visualization showed significant overlap between the "Bank Account: Yes" and "No" classes, indicating that financial inclusion is a complex, non-linear problem not defined by simple demographic boundaries.
 
 ## 🛠️ Dependencies
