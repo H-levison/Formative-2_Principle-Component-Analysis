@@ -9,7 +9,7 @@ Unlike standard implementations that rely on libraries like `sklearn`, this proj
 The goal was to reduce the dimensionality of a complex, real-world African dataset while preserving the maximum amount of information (variance).
 
 ## 🌍 The Dataset: Financial Inclusion in Africa
-* **Source:** [Zindi / Kaggle - Financial Inclusion in Africa](https://zindi.africa/competitions/financial-inclusion-in-africa)
+* **Source:** [Zindi - Financial Inclusion in Africa](https://zindi.africa/competitions/financial-inclusion-in-africa)
 * **Context:** The dataset captures demographic information from **Kenya, Rwanda, Tanzania, and Uganda** to predict the likelihood of an individual having a bank account.
 * **Why this data?**
     * **African Context:** Relevant to the continent's economic development.
@@ -20,7 +20,7 @@ The goal was to reduce the dimensionality of a complex, real-world African datas
 The project follows a strict step-by-step mathematical derivation:
 
 1.  **Data Preprocessing:**
-    * Handling "hidden" missing values (converting "Don't Know" responses to `NaN`).
+    * Handling "hidden" missing values (converting "Don't Know", "Refuse To Answer" responses to `NaN`).
     * Imputation using Mode (for categoricals) and Mean (for numericals).
     * One-Hot Encoding to convert categorical features (e.g., "Rural/Urban") into numeric matrices.
 2.  **Standardization:**
